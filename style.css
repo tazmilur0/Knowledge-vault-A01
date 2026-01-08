@@ -13,3 +13,110 @@
     max-width: 1360px;
     margin: 0 auto;
 }
+/* Shared Style */
+.btn{
+    background-color: #469165;
+    color: #fff;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(9, 152, 241);
+}
+.green-color{
+    color: #30B868;
+}
+
+/* Header Section */
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+    
+}
+
+.header-top .header-logo img{
+   max-width: 139px;
+}
+.header-top .menu ul{
+   display: flex;
+   gap: 32px;
+}
+.header-top .menu ul li{
+    list-style: none;
+   
+}
+.header-top .menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+/* Header Banner */
+.banner-section{
+    align-items: center;
+    text-align: center;
+    background-image: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 300px 0;
+    margin: 0 auto;
+}
+.banner-content{
+    width: 770px;
+    margin: 0 auto;
+}
+.early-acces{
+    color: #469165;
+    margin-bottom: 25px;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 229px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 100px;
+    font-size: 16px;
+    
+}
+.banner-text p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+.header-slogan h1{
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* Notes Section */
+#notes-section{
+    margin: 0 auto;
+    text-align: center;
+    padding: ;
+}
+.note-info{
+    display: flex;
+}
+.section-heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    padding: 100px 0  0;
+    margin-bottom:16px ;
+    text-transform: capitalize;
+}
+
+.section-heading p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
