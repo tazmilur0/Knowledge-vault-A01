@@ -148,3 +148,44 @@
     line-height: 20px;
     color: #627382;
 }
+
+/* Brain Section */
+.brain-section{
+    display: flex;
+    align-items: center;
+    padding: 120px 0;
+}
+
+
+.brain-content .p1{
+
+text-transform: uppercase;
+
+}
+.brain-content .p2{color: #627382;line-height: 20px;font-size: 16px;margin-bottom: 40px;padding: 0 115px 0px 0px;}
+
+.brain-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    text-transform: capitalize;
+   margin-bottom: 15px;
+}
+
+.brien-image img {
+    max-width: 600px;
+}
+.brain-content {
+    padding: 0px 91px;
+}
+.brian-list img {
+    vertical-align: middle;
+}
+.brian-list  {
+    font-size: 16px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brian-list p {
+    margin-bottom: 16px;
+}
