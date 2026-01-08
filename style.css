@@ -189,3 +189,19 @@ text-transform: uppercase;
 .brian-list p {
     margin-bottom: 16px;
 }
+.early-access{
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 80px 40px;
+}
+.early-access h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.early-access p {
+    font-size: 16px;
+    color: #627382;
+    margin: 16px 0;
+    line-height: 24px;
+}
