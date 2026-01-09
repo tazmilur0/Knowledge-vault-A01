@@ -149,7 +149,8 @@
 }
 
 .note-info .note-card {
-    padding: 24px 0;
+    width: 322px;
+    padding: 24px 28px;
     box-shadow: rgb(0 0 0 / 7%) 0px 0px 8px 0px;
     margin-top: 44px;
     border-radius: 5px;
@@ -165,6 +166,7 @@
     font-weight: 600;
     color: rgb(0, 0, 0);
     margin-bottom: 16px;
+    text-transform: capitalize;
 }
 
 .note-info .note-card p {
