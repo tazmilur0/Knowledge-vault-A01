@@ -21,7 +21,7 @@
     font-size: 16px;
     font-weight: 500;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -37,7 +37,7 @@
 .green-color {
     color: rgb(48, 184, 104);
 }
-
+/* Header Section css */
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -68,6 +68,12 @@
     font-weight: 400;
     color: rgb(0, 0, 0);
 }
+.header-slogan h1 {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+/* Banner Section css */
 
 .banner-section {
     align-items: center;
@@ -86,6 +92,15 @@
     margin: 0px auto;
 }
 
+.banner-text p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+.early-access-top {
+    margin-bottom: 16px;
+}
 .early-access-top button {
     background-color: rgb(255, 255, 255);
     margin: 0px auto;
@@ -106,19 +121,6 @@
     margin-right: 6px;
 }
 
-.banner-text p {
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 300;
-    margin-bottom: 32px;
-}
-
-.header-slogan h1 {
-    font-size: 72px;
-    font-weight: 700;
-    margin-bottom: 16px;
-}
-
 .section-heading h2 {
     font-size: 48px;
     font-weight: 700;
@@ -133,7 +135,7 @@
     font-size: 16px;
     line-height: 20px;
 }
-
+/* Nites Section css */
 #notes-section {
     margin: 0px auto;
     text-align: center;
@@ -147,12 +149,11 @@
 }
 
 .note-info .note-card {
-    padding: 24px;
-    box-shadow: rgba(0, 0, 0, 0.21) 0px 0px 8px 0px;
+    padding: 24px 0;
+    box-shadow: rgb(0 0 0 / 7%) 0px 0px 8px 0px;
     margin-top: 44px;
     border-radius: 5px;
 }
-
 .note-info .note-card img {
     background-color: rgb(249, 85, 85);
     padding: 10px;
@@ -171,7 +172,7 @@
     line-height: 20px;
     color: rgb(98, 115, 130);
 }
-
+/* Brain Section  css*/
 .brain-section {
     display: flex;
     align-items: center;
@@ -220,7 +221,7 @@
 .brian-list p {
     margin-bottom: 16px;
 }
-
+/* Early Access Section css */
 .early-access {
     background-color: rgb(247, 246, 242);
     text-align: center;
@@ -240,7 +241,7 @@
     margin: 16px 0px;
     line-height: 24px;
 }
-
+/* Footer Section  css*/
 footer {
     background-color: rgb(0, 25, 49);
     color: rgb(255, 255, 255);
